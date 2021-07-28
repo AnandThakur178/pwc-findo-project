@@ -42,7 +42,8 @@ public class AppController {
 	public String listUsers(Model model) {
 //		List<User> listUsers = userRepo.findAll();
 //		model.addAttribute("listUsers", listUsers);
-//
+//System.out.println("Hola");
 		return "users";
+
 	}
 }
